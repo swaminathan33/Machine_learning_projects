@@ -1,5 +1,5 @@
 import pickle
-import tensorflow as tf
+#import tensorflow as tf
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
 from tqdm import tqdm
