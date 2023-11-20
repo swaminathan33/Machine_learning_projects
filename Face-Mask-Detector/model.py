@@ -13,7 +13,7 @@ def predictor(img_file):
     return np.array(img_file).reshape([1,128,128,3]), pil_img_file
 
 
-model = pickle.load(open('C:/Users/hp/PycharmProjects/FaceMaskDetector/model.pkl','rb'))
+model = pickle.load(open('./model.pkl','rb'))
 
 upload_file = st.file_uploader('Choose a file')
 if upload_file:
